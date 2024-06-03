@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D05EF0D2B1B9D3200ABEBB5 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05EF0C2B1B9D3200ABEBB5 /* PopUpView.swift */; };
+		3D0DA46E2B3686B80027487A /* ring.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA4682B3686B80027487A /* ring.usdz */; };
+		3D0DA46F2B3686B80027487A /* pizza.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA4692B3686B80027487A /* pizza.usdz */; };
+		3D0DA4702B3686B80027487A /* coffee.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA46A2B3686B80027487A /* coffee.usdz */; };
+		3D0DA4712B3686B80027487A /* geta.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA46B2B3686B80027487A /* geta.usdz */; };
+		3D0DA4722B3686B80027487A /* sushi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA46C2B3686B80027487A /* sushi.usdz */; };
+		3D0DA4732B3686B80027487A /* wine.usdc in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA46D2B3686B80027487A /* wine.usdc */; };
+		3D0DA4792B36AEEE0027487A /* houtou.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3D0DA4782B36AEEE0027487A /* houtou.usdz */; };
+		3D0E01EC2B18F3E1005948D8 /* ARCoreAugmentedFaces in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0E01EB2B18F3E1005948D8 /* ARCoreAugmentedFaces */; };
+		3D0E01EE2B18F3E1005948D8 /* ARCoreCloudAnchors in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0E01ED2B18F3E1005948D8 /* ARCoreCloudAnchors */; };
+		3D0E01F02B18F3E1005948D8 /* ARCoreGARSession in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0E01EF2B18F3E1005948D8 /* ARCoreGARSession */; };
+		3D0E01F22B18F3E1005948D8 /* ARCoreGeospatial in Frameworks */ = {isa = PBXBuildFile; productRef = 3D0E01F12B18F3E1005948D8 /* ARCoreGeospatial */; };
+		3D63BBFF2B35F9B900716BD5 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D63BBFE2B35F9B900716BD5 /* SafariView.swift */; };
 		3DAC03A62B18A5F700EC5262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC03A52B18A5F700EC5262 /* AppDelegate.swift */; };
 		3DAC03A82B18A5F700EC5262 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC03A72B18A5F700EC5262 /* SceneDelegate.swift */; };
-		3DAC03AA2B18A5F700EC5262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC03A92B18A5F700EC5262 /* ViewController.swift */; };
 		3DAC03AD2B18A5F700EC5262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC03AB2B18A5F700EC5262 /* Main.storyboard */; };
 		3DAC03AF2B18A5F900EC5262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC03AE2B18A5F900EC5262 /* Assets.xcassets */; };
 		3DAC03B22B18A5F900EC5262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC03B02B18A5F900EC5262 /* LaunchScreen.storyboard */; };
+		3DAC03C52B18A85C00EC5262 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC03C42B18A85C00EC5262 /* DetailViewController.swift */; };
+		3DFE31F92B19C7AE0088BB30 /* GARSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE31F82B19C7AE0088BB30 /* GARSessionManager.swift */; };
+		3DFE31FB2B19C80E0088BB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE31FA2B19C80E0088BB30 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D05EF0C2B1B9D3200ABEBB5 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		3D0DA4682B3686B80027487A /* ring.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ring.usdz; sourceTree = "<group>"; };
+		3D0DA4692B3686B80027487A /* pizza.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pizza.usdz; sourceTree = "<group>"; };
+		3D0DA46A2B3686B80027487A /* coffee.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = coffee.usdz; sourceTree = "<group>"; };
+		3D0DA46B2B3686B80027487A /* geta.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = geta.usdz; sourceTree = "<group>"; };
+		3D0DA46C2B3686B80027487A /* sushi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sushi.usdz; sourceTree = "<group>"; };
+		3D0DA46D2B3686B80027487A /* wine.usdc */ = {isa = PBXFileReference; lastKnownFileType = file; path = wine.usdc; sourceTree = "<group>"; };
+		3D0DA4782B36AEEE0027487A /* houtou.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = houtou.usdz; sourceTree = "<group>"; };
+		3D63BBFE2B35F9B900716BD5 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		3DAC03A22B18A5F700EC5262 /* yamanashi-ar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yamanashi-ar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAC03A52B18A5F700EC5262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DAC03A72B18A5F700EC5262 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DAC03A92B18A5F700EC5262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DAC03AC2B18A5F700EC5262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DAC03AE2B18A5F900EC5262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DAC03B12B18A5F900EC5262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DAC03B32B18A5F900EC5262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAC03C42B18A85C00EC5262 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3DFE31F82B19C7AE0088BB30 /* GARSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GARSessionManager.swift; sourceTree = "<group>"; };
+		3DFE31FA2B19C80E0088BB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0E01F02B18F3E1005948D8 /* ARCoreGARSession in Frameworks */,
+				3D0E01F22B18F3E1005948D8 /* ARCoreGeospatial in Frameworks */,
+				3D0E01EC2B18F3E1005948D8 /* ARCoreAugmentedFaces in Frameworks */,
+				3D0E01EE2B18F3E1005948D8 /* ARCoreCloudAnchors in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +86,21 @@
 		3DAC03A42B18A5F700EC5262 /* yamanashi-ar */ = {
 			isa = PBXGroup;
 			children = (
+				3D0DA46A2B3686B80027487A /* coffee.usdz */,
+				3D0DA46B2B3686B80027487A /* geta.usdz */,
+				3D0DA4692B3686B80027487A /* pizza.usdz */,
+				3D0DA4782B36AEEE0027487A /* houtou.usdz */,
+				3D0DA4682B3686B80027487A /* ring.usdz */,
+				3D0DA46C2B3686B80027487A /* sushi.usdz */,
+				3D0DA46D2B3686B80027487A /* wine.usdc */,
 				3DAC03A52B18A5F700EC5262 /* AppDelegate.swift */,
 				3DAC03A72B18A5F700EC5262 /* SceneDelegate.swift */,
-				3DAC03A92B18A5F700EC5262 /* ViewController.swift */,
+				3DFE31FA2B19C80E0088BB30 /* ViewController.swift */,
+				3D63BBFE2B35F9B900716BD5 /* SafariView.swift */,
+				3DFE31F82B19C7AE0088BB30 /* GARSessionManager.swift */,
+				3DAC03C42B18A85C00EC5262 /* DetailViewController.swift */,
 				3DAC03AB2B18A5F700EC5262 /* Main.storyboard */,
+				3D05EF0C2B1B9D3200ABEBB5 /* PopUpView.swift */,
 				3DAC03AE2B18A5F900EC5262 /* Assets.xcassets */,
 				3DAC03B02B18A5F900EC5262 /* LaunchScreen.storyboard */,
 				3DAC03B32B18A5F900EC5262 /* Info.plist */,
@@ -83,6 +124,12 @@
 			dependencies = (
 			);
 			name = "yamanashi-ar";
+			packageProductDependencies = (
+				3D0E01EB2B18F3E1005948D8 /* ARCoreAugmentedFaces */,
+				3D0E01ED2B18F3E1005948D8 /* ARCoreCloudAnchors */,
+				3D0E01EF2B18F3E1005948D8 /* ARCoreGARSession */,
+				3D0E01F12B18F3E1005948D8 /* ARCoreGeospatial */,
+			);
 			productName = "yamanashi-ar";
 			productReference = 3DAC03A22B18A5F700EC5262 /* yamanashi-ar.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +158,9 @@
 				Base,
 			);
 			mainGroup = 3DAC03992B18A5F700EC5262;
+			packageReferences = (
+				3D0E01EA2B18F3E1005948D8 /* XCRemoteSwiftPackageReference "arcore-ios-sdk" */,
+			);
 			productRefGroup = 3DAC03A32B18A5F700EC5262 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +176,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAC03B22B18A5F900EC5262 /* LaunchScreen.storyboard in Resources */,
+				3D0DA46E2B3686B80027487A /* ring.usdz in Resources */,
+				3D0DA4722B3686B80027487A /* sushi.usdz in Resources */,
+				3D0DA4792B36AEEE0027487A /* houtou.usdz in Resources */,
 				3DAC03AF2B18A5F900EC5262 /* Assets.xcassets in Resources */,
+				3D0DA4732B3686B80027487A /* wine.usdc in Resources */,
+				3D0DA4702B3686B80027487A /* coffee.usdz in Resources */,
+				3D0DA46F2B3686B80027487A /* pizza.usdz in Resources */,
+				3D0DA4712B3686B80027487A /* geta.usdz in Resources */,
 				3DAC03AD2B18A5F700EC5262 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +195,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DAC03AA2B18A5F700EC5262 /* ViewController.swift in Sources */,
 				3DAC03A62B18A5F700EC5262 /* AppDelegate.swift in Sources */,
 				3DAC03A82B18A5F700EC5262 /* SceneDelegate.swift in Sources */,
+				3DFE31FB2B19C80E0088BB30 /* ViewController.swift in Sources */,
+				3D05EF0D2B1B9D3200ABEBB5 /* PopUpView.swift in Sources */,
+				3DAC03C52B18A85C00EC5262 /* DetailViewController.swift in Sources */,
+				3DFE31F92B19C7AE0088BB30 /* GARSessionManager.swift in Sources */,
+				3D63BBFF2B35F9B900716BD5 /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,18 +356,25 @@
 				DEVELOPMENT_TEAM = 3X7LEN654Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "yamanashi-ar/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Yamanashi-GO";
+				INFOPLIST_KEY_NSCameraUsageDescription = ar;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = location;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyoya.yamanashi-ar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,18 +391,25 @@
 				DEVELOPMENT_TEAM = 3X7LEN654Y;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "yamanashi-ar/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Yamanashi-GO";
+				INFOPLIST_KEY_NSCameraUsageDescription = ar;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = location;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kyoya.yamanashi-ar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,6 +438,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D0E01EA2B18F3E1005948D8 /* XCRemoteSwiftPackageReference "arcore-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google-ar/arcore-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.40.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D0E01EB2B18F3E1005948D8 /* ARCoreAugmentedFaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D0E01EA2B18F3E1005948D8 /* XCRemoteSwiftPackageReference "arcore-ios-sdk" */;
+			productName = ARCoreAugmentedFaces;
+		};
+		3D0E01ED2B18F3E1005948D8 /* ARCoreCloudAnchors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D0E01EA2B18F3E1005948D8 /* XCRemoteSwiftPackageReference "arcore-ios-sdk" */;
+			productName = ARCoreCloudAnchors;
+		};
+		3D0E01EF2B18F3E1005948D8 /* ARCoreGARSession */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D0E01EA2B18F3E1005948D8 /* XCRemoteSwiftPackageReference "arcore-ios-sdk" */;
+			productName = ARCoreGARSession;
+		};
+		3D0E01F12B18F3E1005948D8 /* ARCoreGeospatial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D0E01EA2B18F3E1005948D8 /* XCRemoteSwiftPackageReference "arcore-ios-sdk" */;
+			productName = ARCoreGeospatial;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DAC039A2B18A5F700EC5262 /* Project object */;
 }
